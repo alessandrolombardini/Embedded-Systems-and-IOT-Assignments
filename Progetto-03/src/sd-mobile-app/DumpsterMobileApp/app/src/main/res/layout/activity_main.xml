@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".View.MainActivity">
+
+    <Button
+        android:id="@+id/buttonGetToken"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:text="@string/ottieni_token" />
+
+    <TextView
+        android:id="@+id/textResult"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/buttonDumpster"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:text="@string/connetti_a_dumpster"
+        android:visibility="invisible"
+        tools:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/textDumpster"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"
+        tools:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/textTipoDiRifiuto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/seleziona_il_tipo_di_rifiuto"
+        android:visibility="invisible"
+        tools:text="Seleziona il tipo di rifiuto"
+        tools:visibility="invisible" />
+
+    <Button
+        android:id="@+id/buttonA"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/a"
+        android:visibility="invisible"
+        tools:visibility="invisible" />
+
+    <Button
+        android:id="@+id/buttonB"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/b"
+        android:visibility="invisible"
+        tools:visibility="invisible" />
+
+    <Button
+        android:id="@+id/buttonC"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/c"
+        android:visibility="invisible"
+        tools:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="9dp" />
+
+    <TextView
+        android:id="@+id/textTempo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/seleziona_il_tipo_di_rifiuto"
+        android:visibility="invisible"
+        tools:text="Seleziona il tipo di rifiuto"
+        tools:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/textCounter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/seleziona_il_tipo_di_rifiuto"
+        android:visibility="invisible"
+        tools:text="Seleziona il tipo di rifiuto"
+        tools:visibility="invisible" />
+
+    <Button
+        android:id="@+id/buttonTime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/richiedi_tempo"
+        android:visibility="invisible"
+        tools:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="6dp" />
+
+    <Button
+        android:id="@+id/buttonFinish"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/fine_deposito"
+        android:visibility="invisible"
+        tools:visibility="invisible" />
+
+</LinearLayout>

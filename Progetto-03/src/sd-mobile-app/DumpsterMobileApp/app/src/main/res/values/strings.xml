@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">DumpsterMobileApp</string>
+    <string name="ottieni_token">OTTIENI TOKEN</string>
+    <string name="connetti_a_dumpster">CONNETTI A DUMPSTER</string>
+    <string name="seleziona_il_tipo_di_rifiuto">Seleziona il tipo di rifiuto</string>
+    <string name="a">A</string>
+    <string name="b">B</string>
+    <string name="c">C</string>
+    <string name="richiedi_tempo">Richiedi tempo</string>
+    <string name="fine_deposito">Fine Deposito</string>
+</resources>

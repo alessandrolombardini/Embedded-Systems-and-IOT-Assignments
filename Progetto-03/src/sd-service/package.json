@@ -1,0 +1,19 @@
+{
+  "name": "smart-dumbster",
+  "version": "1.0.0",
+  "description": "Progetto embedded #3",
+  "main": "service.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "curl.lib.js": "^1.0.22",
+    "express": "^4.17.1",
+    "expressjs": "^1.0.1",
+    "file-system": "^2.2.2",
+    "xmlhttprequest": "^1.8.0"
+  },
+  "author": "",
+  "license": "ISC"
+}

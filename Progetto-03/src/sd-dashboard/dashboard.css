@@ -1,0 +1,46 @@
+.jumbotron-custom {
+    padding: 2rem 1rem;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    border-radius: 10px; 
+    background-color: rgb(207, 187, 187);
+}
+
+.dates-interval{
+    max-width: 12em;
+    display: inline-block;
+    padding-top: 0.5em;
+    margin-left: 0.5em
+}
+
+.title{
+    border-radius: 0.5em;
+    border-style: solid;
+    background-color: lightgray;
+    text-align: center;
+}
+
+.label-success{
+    border-color: rgb(16, 100, 5);
+    color: antiquewhite;
+    background-color: rgb(25, 121, 12);
+    border-radius: 10px;
+    padding: 5px;
+    margin: 5px;
+}
+
+.label-danger{
+    border-color: rgb(100, 5, 5);
+    color: antiquewhite;
+    background-color: rgb(121, 12, 12);
+    border-radius: 10px;
+    padding: 5px;
+    margin: 5px;
+}
+
+.weight { 
+    margin: 0.5em;
+    border-color: antiquewhite;
+    background-color: antiquewhite;
+    border-radius: 5px;
+}

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="format-detection" content="telephone=no">
+        <meta name="msapplication-tap-highlight" content="no">
+        <meta name="viewport" content="initial-scale=1, width=device-width, viewport-fit=cover">
+        <meta charset="utf-8">
+        <link href="https://use.fontawesome.com/releases/v5.0.4/css/all.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="dashboard.css">
+        <script type="text/javascript" src="https://cdn.jsdelivr.net/jquery/latest/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.8.0/Chart.bundle.min.js"></script>
+        <script type="text/javascript" src="js/dashboard.js"></script>
+        <title>Dumpsters</title>
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-md bg-dark navbar-dark fixed-top">
+            <a class="navbar-brand" href="#"><i class="fa fa-trash"></i> Smart dumpster</a> 
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menunavbar" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        </nav>
+        <div class="container mt-5">
+            <br />
+            <h1 class="title p-3">Smart dumpster dashboard</h1>                
+            <div>
+                <br />
+                <section>
+                    <h2>Stato attuale</h2>
+                    <hr />
+                    <p>Disponibilità: <span id="available"></span></p>
+                    <p>Numero depositi: <span id="numeroDepositi"></span></p>
+                    <p>Quantità corrente: <span id="quantitaCorrente"></span></p>
+                    <a id="cambiaStato" href="#"></a>
+                </section>
+                <br />
+                <section>
+                    <h2>Andamento</h2>
+                    <hr />
+                    <label>Visualizza gli ultimi   <select id="numeroGiorni" name="numeroGiorni"></select>   giorni</label>
+                    <br />
+                    <br />
+                    <br />
+                    <div class="row align-items-center justify-content-center">
+                        <div class="mt-2 canvas-div col-10 text-center" id="canvas-div">
+                            <div class="w-100 h-100">
+                                <canvas id="numeroDepositiPerGiorno" style="margin-right: 0.2em;"></canvas>
+                            </div>
+                        </div> 
+                        <br />
+                        <br />
+                        <br />
+                        <div class="mt-5 canvas-div col-10 text-center" id="canvas-div">
+                            <div class="w-100 h-100">
+                                <canvas id="pesoDepositatoPerGiorno" style="margin-right: 0.2em;"></canvas>
+                            </div>
+                        </div>
+                        <br />
+                        <br />
+                        <br /> 
+                        <div class="mt-5 mb-5 canvas-div col-8 text-center" id="canvas-div">
+                            <div class="w-100 h-100">
+                                <canvas id="tipoDiRifiutiPerPeriodo" style="margin-right: 0.2em;"></canvas>
+                            </div>
+                        </div>
+                        <br />
+                        <br />
+                        <br /> 
+                        <div class="mt-5 mb-5 canvas-div col-8 text-center" id="canvas-div">
+                            <div class="w-100 h-100">
+                                <canvas id="tipoDiRifiutiPerPeriodoConPeso" style="margin-right: 0.2em;"></canvas>
+                            </div>
+                        </div>
+                        <br />
+                        <br />
+                        <br /> 
+                    </div>
+                </section>
+            </div>
+        </div>
+    </body>
+</html>
+
+
+
+
